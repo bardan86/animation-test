@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation: 4s move  ease infinite alternate ;
+    position: relative;
+}
+@keyframes move{
+    0%{ background-color: aqua;
+        top: 0;
+        left: 0;
+    }
+
+    100%{
+       background-color: red;
+       top: 0;
+       left: 1250px;
+
+    }
+}
+.div2{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 0;
+    left: 1250px;
+    animation: 4s movet  ease infinite alternate ;
+}
+@keyframes movet{
+    0%{ background-color: rgb(191, 255, 0);
+        top: 0;
+        right: 0;
+
+    }
+    100%{
+       background-color: rgb(157, 0, 255);
+       top: 0;
+       left:0;
+
+    }
+}
+.div3{
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    position: relative;
+    animation: 4s move  ease infinite alternate ;
+}
+.div4{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 1250px;
+    animation: 4s movet  ease infinite alternate ;
+}
+.div5{
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    position: relative;
+    animation: 4s move  ease infinite alternate ;
+}
+.div6{
+    width: 200px;
+    height: 100px;
+    background-color: cyan;
+    position: relative;
+    top: 0;
+    left: 1250px;
+    animation: 4s movet  ease infinite alternate ;
+}
+.div7{
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    position: relative;
+    animation: 4s move  ease infinite alternate ;
+}
+.div8{
+    width: 200px;
+    height: 100px;
+    background-color: lime;
+    position: relative;
+    top: 0;
+    left: 1250px;
+    animation: 4s movet  ease infinite alternate ;
+}
